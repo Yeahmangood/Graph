@@ -1,3 +1,8 @@
+Complexité de dijsktra avec un structure de tas:
+
+Dans un tas binaire de taille h (nombre d'étages) nous avons 2^h noeuds au maximum (si l'arbre est complet)
+nous avons donc une complexité  h = ln(n). Or nous avons m noeuds a visiter donc m.ln(h) parcours à réaliser 
+
 Exo 2 
 4/ L'algorithme converge car il ne fait que diminuer les valeurs des distances pour chaque noeud
 5/ 
